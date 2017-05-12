@@ -3,7 +3,7 @@ a simple promise mysql module for nodejs with mysql-module
 
 # Example
 ```javascript
-var pMysql = require('promise-mysql');
+var pMysql = require('mysql-promise');
 
 var db = new pMysql({
     connectionLimit: 10,  // default 10
