@@ -2,6 +2,7 @@
 a simple promise mysql module for nodejs with mysql-module
 
 # Example
+```javascript
 var pMysql = require('promise-mysql');
 
 var db = new pMysql({
@@ -23,3 +24,4 @@ db.query('select * from iyepage').then(function (data, fields) {
 }).catch(function (err) {
     console.log('Error: ' + err);
 });
+```
